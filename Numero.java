@@ -6,12 +6,12 @@ class Numero{
     }
 
     int sommaM(int aggiunta){
-        int somma = n + aggiunta;
+        int somma = this.n + aggiunta;
         return somma;
     }
 
     void aggiungi(int aggiunta){
-        n += aggiunta;
+        this.n += aggiunta;
     }
 }
 
